@@ -34,7 +34,7 @@
     </div>
 
 
-    <iframe src="http://172.16.28.45/phpwebsocket/board.php" width="100%" height="650" frameborder="0"></iframe>
+    <iframe src="http://172.16.28.45/Chat-php-websocket/board.php" width="100%" height="650" frameborder="0"></iframe>
 
 </body>
 

@@ -1,12 +1,17 @@
 ขั้นตอนการทำ https://www.thaicreate.com/php/php-websockets-real-time.html
 
 ระบบแชท php websocket + mysql
-
-รัน serrver websocket ที่ cmd 
-Directory bin 
-รันคำสั่ง php chat-server.php
-
 Configต่างๆ src Connection.php
 
+    1.สร้างฐานข้อมูลและ config การเชื่อมต่อฐานข้อมูล mysql ที่ Connection.php 
+
+รัน serrver websocket ที่ cmd Directory bin 
+
+    2.รันคำสั่ง php chat-server.php
+
+
+    3.เข้าใช้งาน http://localhost/Chat-php-websocket/
+
+หากรันแล้วใช้งานไม่ได้ดูที่ไฟล์ index.php post.php ว่า path server ให้เปลี่ยนเป็น localhost ทั้งหมด
 
 
