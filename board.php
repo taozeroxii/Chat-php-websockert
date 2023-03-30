@@ -25,7 +25,7 @@
                 <thead>
                     <tr>
                         <td width="200">
-                            <div align="center">Board </div>
+                            <div align="center">Open Chat </div>
                         </td>
                     </tr>
                 </thead>

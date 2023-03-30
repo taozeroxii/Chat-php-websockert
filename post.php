@@ -18,7 +18,7 @@
 
 <body>
     <div class="container">
-        
+
         <?php
         echo "ชื่อผู้ใช้งาน : ";
         echo  !isset($_POST['name']) != '' ? 'GUEST' : $_POST['name'];
@@ -34,7 +34,7 @@
     </div>
 
 
-    <iframe src="http://172.16.28.45/Chat-php-websocket/board.php" width="100%" height="650" frameborder="0"></iframe>
+    <iframe src="http://172.16.28.45/Chat-php-websockert/board.php" width="100%" height="650" frameborder="0"></iframe>
 
 </body>
 
@@ -110,5 +110,20 @@
 
     $('#btnSend').click(function() {
         doSend();
+    });
+
+    // Get the input field
+    var input = document.getElementById("txtEmail");
+
+    // Execute a function when the user presses a key on the keyboard
+    input.addEventListener("keypress", function(event) {
+
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            if (input) {
+                doSend();
+            }
+
+        }
     });
 </script>
