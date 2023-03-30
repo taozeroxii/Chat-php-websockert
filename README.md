@@ -7,7 +7,7 @@ Configต่างๆ src Connection.php
 
 รัน serrver websocket ที่ cmd Directory bin 
 
-    2.รันคำสั่ง php chat-server.php
+    2.รันคำสั่ง cd bin แล้วรัน php chat-server.php เพื่อ start server websocket
 
 
     3.เข้าใช้งาน http://localhost/Chat-php-websocket/
